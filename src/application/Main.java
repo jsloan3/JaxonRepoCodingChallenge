@@ -13,7 +13,11 @@ public class Main extends Application {
 		try {
 			VBox root = new VBox();
 			root.getChildren().add(new Label("Hong's Label"));
+
 			root.getChildren().add(new Label("Hong's branch"));
+
+			root.getChildren().add(new Label("Jaxon's Branch"));
+      
 			Scene scene = new Scene(root,400,400);
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Jaxon's project");
